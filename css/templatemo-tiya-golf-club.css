@@ -129,10 +129,7 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-.logo {
-    width: 200px; /* Set width */
-    height: auto; /* Maintain aspect ratio */
-}
+
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
