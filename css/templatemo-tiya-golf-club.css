@@ -670,7 +670,13 @@ strong {
 .hero-section .ratio {
   border-radius: var(--border-radius-medium);
   overflow: hidden;
+  width: 400px; /* Adjusted size */
+  height: 225px; /* Adjusted size */
+  position: relative; /* Allows shifting */
+  left: 200px; /* Move right by 20px */
+  top: 30px;  /* Move down by 15px */
 }
+
 
 .hero-section svg {
   position: absolute;
