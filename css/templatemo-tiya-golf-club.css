@@ -144,7 +144,7 @@ strong {
 
 .section-overlay {
   content: "";
-  background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.01) 0%, rgb(39, 48, 83) 100%) repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.01) 0%, rgb(39, 48, 83,0.5) 100%);
   position: absolute;
   top: 0;
   right: 0;
@@ -645,7 +645,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/background_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -703,7 +703,7 @@ strong {
   BACKGROUND IMAGE SECTION        
 -----------------------------------------*/
 .section-bg-image {
-  background-image: url('../images/frederik-rosar-NDSZcCfnsbY-unsplash.jpg');
+  background-image: linear-gradient(rgba(39, 48, 83, 0.01) 0%, rgba(39, 48, 83, 0.5) 100%), url('../images/background_2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
