@@ -768,7 +768,7 @@ strong {
 }
 
 .member-block-image-wrap:hover .member-block-image {
-  transform: scale(1.2);
+  transform: non;
 }
 
 .member-block-image-wrap:hover .social-icon {
@@ -789,8 +789,8 @@ strong {
 }
 
 .member-block-image {
-    width: 150px; /* Adjust as needed */
-    height: 150px;
+    width: 210px; /* Adjust as needed */
+    height: 210px;
     object-fit: cover; /* Ensures images are centered and fit within the size */
     border-radius: 50%; /* Optional: gives the images a circular appearance */
 }
