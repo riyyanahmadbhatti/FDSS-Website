@@ -789,7 +789,10 @@ strong {
 }
 
 .member-block-image {
-  transition: all 0.3s;
+    width: 150px; /* Adjust as needed */
+    height: 150px;
+    object-fit: cover; /* Ensures images are centered and fit within the size */
+    border-radius: 50%; /* Optional: gives the images a circular appearance */
 }
 
 .member-block-info {
