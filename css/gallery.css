@@ -1,0 +1,16 @@
+.thumbnails div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */
+    gap: 10px; /* Adjusts the space between items */
+}
+
+.thumbnails img {
+    width: 100%; /* Ensures images fit the container */
+    height: auto;
+}
+
+.thumbnails h3 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1em;
+}
